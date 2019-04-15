@@ -62,4 +62,4 @@ diff -qr $DATABASE1_DATABASE $DATABASE2_DATABASE | grep "Somente em $DATABASE2_D
 echo "$COUNT_DIFF2 tabelas em $DATABASE2_DATABASE não presentes em $DATABASE1_DATABASE"
 echo
 
-/usr/bin/diff -r "$DATABASE1_DATABASE" "$DATABASE2_DATABASE"
+/usr/bin/diff -r "$DATABASE1_DATABASE" "$DATABASE2_DATABASE" > all_diffs.txt
